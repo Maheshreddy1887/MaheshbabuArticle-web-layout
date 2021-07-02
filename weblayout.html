@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="utf-8">
+	 <title>Web Layout</title>
+	 <meta name="viewport"> content="width=device-width, initial-scale=1.0">
+	 <style type="text/css">
+	 
+	 #header{
+	 background-color: yellow;
+	 color: red;
+	 text-align:left;
+	 padding:10px;
+	 }
+	 
+	 #header h3{
+	 text-align:right;
+	 }
+	 
+	 #navbar{
+	  background-color: lightgreen;
+	  height: 20px;
+	 }
+	 #navbar li{
+	  display: inline;
+	  padding: 20px;
+	 }
+	 
+	 #main img{
+	     width: 50%;
+		 height: 40%;
+		 margin: 40px;
+	 
+	 }
+	 #main{
+	   font-size:30px;
+	   font-family: monospace;
+	 }#main{
+	    font-size: 30px;
+		font-family: monospace;
+	 }
+	 
+	 #footer{
+	   background-color: black;
+	   color: green;
+	   text-align: center;
+	   height: 50px;
+	   padding: 60px;
+	   position: sticky;
+	   bottom: 0px;
+	 }
+	 /*mobile device*/
+	 @media all and (min-width: 300px) and (max-width: 500px){
+	   #main{
+	   font-size: 10px;
+	   font-family: monospace;
+	   color: cyan;
+	 }
+	 
+	 #main img{
+	  height: 50%;
+	  width: 40%;
+	 }
+	 }
+	 
+	 /* tab device*/
+	 @media all(min-width:500px) and (max-width:1000px) and (min-height: 600px)
+	 and (max-height: 100px){
+	  #main{
+	   font-size: 20px;
+	   font-family: monospace;
+	   color: blue;
+	 }  
+	 }
+	 
+	 /*desktop device*/
+	  @media all and(min-width:1000px){
+	  #main{
+	   font-size: 30px;
+	   font-family: monospace;
+	   color: blue;
+	 }  
+	 }
+	 
+	 @media all and (orientation: landscape){
+	  #main{
+	  font-size:30px;
+	  font-family:monospace;
+	  color:blue;
+	  }
+	 @media all and(orientation: portrait) and (min-height: 1001px){
+	  #main{
+	  font-size:30px;
+	  font-family:monospace;
+	  color:yellow;
+	  
+	  }
+	 }
+	 </style>
+</head>
+<body>
+
+ <div id="header"> <h1>Mysore Palace</h1> <h3>Contact:Reddy@gmail.com</h3></div>
+ <div id="navbar">
+  <ul>
+      <li><a href="#">Home</li>
+	  <li><a href="">About</li>
+	  <li><a href="">Contact</li>
+  </ul>
+</div>
+     <div id="main">
+<img src= " https://www.inmysore.com/images/mysore-attractions/mysore-palace/mysore-palace-side-view.jpg">
+
+Mysore Palace is built in the Indo-Saracenic style with a touch of Hindu, Mughal, Rajput, and Gothic architectural styles.
+ The three-storied palace along with a 145 feet five-storied tower was built using fine grey granite while deep pink marble was used for the domes.
+ The exterior of this marvelous structure is enriched with two durbar halls, several arches, canopies, columns and bay windows.
+ There is also a sprawling green garden surrounding the palace. The interiors are opulently designed with carved doors, stained glass ceilings, glittering glazed flooring tiles, spectacular Czechoslovakian chandeliers, and works of art from all over the world.
+ All the rooms of the palace are stunningly luxurious and quite appealing.
+
+Above the central arch, there is a divine sculpture of Gajalakshmi –
+ the goddess of wealth with two elephants. In addition to the three entrances, located on the eastern, southern, and western sides, the palace features several secret tunnels.
+ There is also a group of temples at the palace, built from the 14th to the 20th century.
+ 
+</div>
+<div id="palace">Mysore Palace - palace.com</div>
+
+<div> Mysore Palace</div>
+
+</body>
+</html>
